@@ -1,0 +1,150 @@
+/* CSS reset */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: rgb(230, 228, 228); 
+}
+
+/* Nav bar style */
+#navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 15px;
+    list-style: none;
+}
+
+nav ul li:hover {
+    background-color: gray;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+#searchbar {
+    padding: 10px;
+}
+
+#searchbar input {
+    padding: 5px;
+}
+
+
+#searchbar button {
+    padding: 5px;
+    background-color: #e7e7e7;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* section style  */
+
+section {
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+/* Card Style */
+
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container {
+    border: 1px solid rgb(185, 185, 185);
+    width: 30vw;
+    margin: 10px;
+}
+
+.card-image-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.card-image {
+    width: 200px;
+}
+
+.card-image:hover {
+    transform: scale(1.1);
+    transition: all 150ms;
+}
+
+
+.card-desc {
+    text-align: center;
+    margin: 5px;
+    padding: 8px;
+}
+
+.card-desc a:hover {
+    color: rgb(42, 42, 114);
+}
+
+.card-price {
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+.card-price a:hover {
+    color: rgb(204, 19, 19);
+}
+
+
+
+#main-container3 {
+    display: flex;
+    width: 97vw;
+    overflow: scroll;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+/* Utlities Class */
+
+.nohyperlink {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.allh1 {
+    padding: 15px;
+    font-size: 1.5rem;
+}
